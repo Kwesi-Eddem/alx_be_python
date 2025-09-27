@@ -1,12 +1,12 @@
-FARENHEIT_TO_CELCIUS_FACTOR = 5/9
-CELCIUS_TO_FARENHEIT_FACTOR = 9/5
+FARENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FARENHEIT_FACTOR = 9/5
 
 def convert_to_celcius(farenheit):
-    temp_in_celcius = (farenheit-32) * FARENHEIT_TO_CELCIUS_FACTOR
+    temp_in_celcius = (farenheit-32) * FARENHEIT_TO_CELSIUS_FACTOR
     return temp_in_celcius
 
 def convert_to_farenheit(celcius):
-    temp_in_farenheit = (celcius * CELCIUS_TO_FARENHEIT_FACTOR) + 32
+    temp_in_farenheit = (celcius * CELSIUS_TO_FARENHEIT_FACTOR) + 32
     return temp_in_farenheit
 
 inputValue = float(input("Enter the temperature to convert: "))
