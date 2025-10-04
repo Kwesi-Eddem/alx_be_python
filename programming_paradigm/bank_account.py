@@ -20,8 +20,7 @@
         print("BankAccount:")
         print(f"Current Balance: ${self.account_balance:.1f}")"""
 
-class BankAccount(): 
-    print("BankAccount:") 
+class BankAccount():  
     
     def __init__(self, account_balance): 
         self.account_balance = account_balance 
