@@ -1,0 +1,1 @@
+print('class_static_methods_demo.py')
